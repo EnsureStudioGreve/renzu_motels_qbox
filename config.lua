@@ -20,6 +20,9 @@ config.wardrobes = { -- skin menus
 	['qb-clothing'] = function()
 		return TriggerEvent('qb-clothing:client:openOutfitMenu')
 	end,
+|	['rcore_clothing'] = function()
+		return TriggerEvent('rcore_clothing:openChangingRoom')
+	end,
 	['esx_skin'] = function()
 		TriggerEvent('esx_skin:openSaveableMenu')
 	end,
