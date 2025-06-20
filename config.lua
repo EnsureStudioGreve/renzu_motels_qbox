@@ -1,5 +1,5 @@
 config = {}
-config.wardrobe = 'illenium-appearance' -- choose your skin menu
+config.wardrobe = 'rcore_clothing' -- choose your skin menu
 config.target = false -- false = markers zones type. true = ox_target, qb-target
 config.business = true -- allowed players to purchase the motel
 config.autokickIfExpire = false -- auto kick occupants if rent is due. if false owner of motel must kick the occupants
